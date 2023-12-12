@@ -1,6 +1,6 @@
 
 # AWS S3 Notification ☁️
-
+> [!IMPORTANT]
 This script automates the setup of an AWS infrastructure for triggering a Lambda function in response to new objects being created in an S3 bucket. The Lambda function, in turn, publishes a notification to an SNS topic, and a subscription to this topic sends an email notification.
 
  ☣︎ This infrastructure is used by big comapnies such as Netflix to let their subscibers know a new show/movie is out. 
